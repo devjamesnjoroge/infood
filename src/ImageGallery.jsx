@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function ImageDisplay() {
-  const [numImages, setNumImages] = useState(164); // replace with the actual number of images
+  const [numImages, setNumImages] = useState(60); // replace with the actual number of images
   const [isLoading, setIsLoading] = useState(true);
   const [images, setImages] = useState([]);
 
